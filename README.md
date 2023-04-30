@@ -1,29 +1,21 @@
-# LAB - Class xx
+# LAB - Class 03
 
-## Project: Project Name Here
+## Project: Madlib-CLI
+---
+### Author: Mohamad Shareef Naser
+---
+### Links and Resources
+[PR link](https://github.com/mshnas9/madlib-cli/pull/1)
 
-### Author: Student/Group Name
+### Setup
+You need to [install Python3](https://wsvincent.com/install-python/#install-python-on-linux) to run this project
 
-#### Links and Resources
+### Initialize the application
+- cd into project directory
+- Write`python3 <filename>.py` in the command line
 
-- Back-end server URL (when applicable)
-- Front-end application (when applicable)
+### Tests
 
-#### Setup
-
-.env requirements (where applicable)
-
-- `PORT` - Port Number
-- `DATABASE_URL` - URL to the running Postgres instance/db
-
-##### How to initialize/run your application (where applicable)
-
-e.g. `python main.py`
-
-##### How to use your library (where applicable)
-
-#### Tests
-
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- activate `.venv` using this command in terminal `source .venv/bin/activate`
+- Install pytest using pip in your terminal: `pip install pytest`
+- Run your tests using the `pytest` command
