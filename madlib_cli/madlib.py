@@ -28,3 +28,11 @@ def merge(stripped, parts):
     curly-braced placeholders with the corresponding part.
     '''
     return stripped.format(*parts)
+
+
+if __name__ == "__main__":
+    path = "./assets/dark_and_stormy_night_template.txt"
+    content = read_template(path)
+    stripped, parts = parse_template(content)
+    merged = merge(stripped, parts)
+    print(merged)
