@@ -5,7 +5,7 @@
 ### Author: Mohamad Shareef Naser
 ---
 ### Links and Resources
-[PR link](https://github.com/mshnas9/madlib-cli/pull/2)
+[PR link](https://github.com/mshnas9/madlib-cli/pull/3)
 
 ### Setup
 You need to [install Python3](https://wsvincent.com/install-python/#install-python-on-linux) to run this project
